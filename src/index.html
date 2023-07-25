@@ -17,6 +17,24 @@
       <button type="submit" onclick="enviaoffset()">Digite sua mensagem</button>
 
     </main>
+
+    /* Estilo para o contêiner que agrupa as caixas de texto */
+    .container {
+      display: flex; /* Define o layout como flexível */
+    }
+
+    /* Estilo para cada caixa de texto */
+    .text-box {
+      margin: 5px; /* Adiciona uma margem entre as caixas de texto */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="text" class="text-box" id="caixa1" name="caixa1">
+    <input type="text" class="text-box" id="caixa2" name="caixa2">
+  </div>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
