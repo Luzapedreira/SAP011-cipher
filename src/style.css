@@ -1,4 +1,9 @@
 body 
+.container {
+  background-image: url('Image.png');
+  background-size: cover; /* ou 'contain' para ajustar o tamanho da imagem */
+  background-repeat: no-repeat;
+}
 .cabeçalho{
   display: flex;
   flex-direction: column;
@@ -14,7 +19,7 @@ body
   align-items: center;
   font-size: 20px;
 }
-.deslocamento{
+.offset{
   justify-content: center;   
 }
 .inputDesloc{
@@ -34,7 +39,7 @@ button{
   font-family: "Lucida Console", Courier, monospace;
   font-weight: 700;
   border-radius: 10px;
-}
+  }
 button:hover {
   transform: scale(0.9);
 }
@@ -55,15 +60,4 @@ form textarea{
   text-align: center;
   height: 80px;
   width: 600px;
-}
-
-.refresh{
-  background-color: #ec9dc3;
-  border-color: #79016f;
-  color: #475285;
-  width: 70px;
-  height: 25px;
-  font-family: "Lucida Console", Courier, monospace;
-  font-weight: 700;
-  border-radius: 10px;
 }

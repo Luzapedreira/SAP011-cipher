@@ -1,8 +1,6 @@
 const cipher = {encode, decode
 
 };
-const limpar = document.querySelector('#limpar');
-
 
 function encode(offset,text){
   if(typeof parseInt(offset) !== 'number' || typeof text != 'string') {
@@ -14,12 +12,16 @@ function encode(offset,text){
     const numberASCII = text.charCodeAt(i);if(numberASCII >= 65 && numberASCII <= 90) {
       const calc = (((numberASCII - 65) + parseInt(offset)) % 26) + 65;
       msgdecode += String.fromCharCode(calc);
-    } else if(numberASCII >= 97 && numberASCII <= 122) {
+      } 
+    
+      else if(numberASCII >= 97 && numberASCII <= 122) {
       const calc = (((numberASCII - 97) + parseInt(offset)) % 26) + 97;
       msgdecode += String.fromCharCode(calc);
-    } else if (numberASCII >= 32 || numberASCII <= 64) {
+      } 
+    
+      else if (numberASCII >= 32 || numberASCII <= 64) {
       msg += String.fromCharCode(numberASCII);
-    }
+      }
   } return msgdecode;
 }
 
@@ -47,8 +49,4 @@ function decode(offset,text) {
   } return msgdec;
 }
 
-limpar.addEventListener('click',
-function limpar(){
-  window.location.limpar();
-})
 export default cipher;

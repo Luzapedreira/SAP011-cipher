@@ -18,30 +18,33 @@
 <body>
    <div id="root" class="boxModel">
       
-      <form class="offset"> Selecione o deslocamento desejado:
-         <input type="number" class="inputDesloc" id="offset" min="1" max="999" step="1">
-         <input type="button" id="limpar" class="limpar" value="Limpar">
+      <form onsubmit="event.preventDefault()" class="offset"> 
+         <div>
+            <label>Selecione o deslocamento desejado:</label>
+            <input type="number" class="inputDesloc" id="offset" min="1" max="999" step="1">
+         </div>
+   
+         <div>
+            <p> Você não acredita no que vou te contar.</p>
+
+            <textarea id="msgDecodificada" class="textPlace" style='resize: none' rows="2" cols="100" 
+            placeholder="Deixe aqui sua fofoca..." name="msgencode"></textarea>
+            
+            <button id="buttonEncode" onclick="codificar();">Codificar</button>
+         </div>
+
+         <div>
+            <p> Oooops, esqueci que ninguém pode saber.</p>
+
+            <textarea id="msgCodificada" class="textPlace" rows="2" cols="100" 
+            placeholder="Fofoca em código..." name="msgdecode"></textarea>
+         
+            <button id="buttonDecode">Decodificar</button>
+         </div>
       </form>
-
-      <p> Você não acredita no que vou te contar.</p>
-
-      <form id= "msgdecode">
-         <textarea id="codificar" class="textPlace" style='resize: none' rows="2" cols="100" placeholder="Deixe aqui sua fofoca..." name="message.encode"></textarea>
-      </form>
-
-      <p id="msgcode"></p>
-      <button id="button-encode">Codificar</button>
-
-      <p> Oooops, esqueci que ninguém pode saber.</p>
-
-      <form id= "msgcode">
-         <textarea id="decodificar" class="textPlace" rows="2" cols="100" placeholder="Fofoca em código..." name="msgdecode"></textarea>
-      </form>
-
-      <p id = "resdecode"> </p>
-      <button id="button-decode">Decodificar</button>
      
    </div>
-   <script src="index.js" type="module"></script> 
+
+  
 </body>
 </html>
