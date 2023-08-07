@@ -39,7 +39,7 @@ function decode(offset,text) {
       msgCode += String.fromCharCode(calcDecode);
 
     } else if(numberASCII >= 97 && numberASCII <= 122) {
-      const calcDecode = (((numberASCII - 97) - parseInt(offset)) % 26) + 97;
+      const calcDecode = ((((numberASCII - 97) - parseInt(offset)) % 26)+26)%26 + 97;
       msgCode += String.fromCharCode(calcDecode);
 
     } else if(numberASCII >= 32 || numberASCII <= 64) {
