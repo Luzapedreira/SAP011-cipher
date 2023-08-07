@@ -7,10 +7,9 @@ import cipher from './cipher.js';
 function codificar() {
   // pegar o offset
   const offset = document.getElementById('offset').value;
-  // console.log("offset", offset)
   // Pegar o que está escrito na caixa de texto
   const msgDecodificada = document.getElementById('msgDecodificada').value;
-  // console.log("msgDecodificada", msgDecodificada)
+  
   // codificar a mensagem (passando offset e msg original)
   const codificado = cipher.encode(offset, msgDecodificada)
   // mostrar msg codificada na segunda caixa de texto
