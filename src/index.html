@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fofoca com Afeto</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script type="text/javascript" src="index.js"> </script>
-  
-  </head>
-  <body>
-   
-    <header class="cabeçalho">
-   <h1>Fofoca com Afeto</h1>
-</header>
-<body>
-   <div id="root" class="boxModel">
-      
-      <form onsubmit="event.preventDefault()" class="offset"> 
-         <div>
-            <label>Selecione o deslocamento desejado:</label>
-            <input type="number" class="inputDesloc" id="offset" min="1" max="999" step="1">
-         </div>
-   
-         <div>
-            <p> Você não acredita no que vou te contar.</p>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Caesar Cipher</title>
+      <link rel="stylesheet" href="style.css" type="text/css" />
+      <script type="text/javascript"
+         src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+      <script type="module" src="index.js"> </script>
+   </head>
 
-            <textarea id="msgDecodificada" class="textPlace" style='resize: none' rows="2" cols="100" 
-            placeholder="Deixe aqui sua fofoca..." name="msgencode"></textarea>
-            
-            <button id="buttonEncode" onclick="codificar();">Codificar</button>
-         </div>
+   <body>
+      <header class="cabeçalho">
+         <h1>Fofoca com Afeto</h1>
+      </header>
 
-         <div>
-            <p> Oooops, esqueci que ninguém pode saber.</p>
+      <div id="root" class="boxModel">
+         <form onsubmit="event.preventDefault()" class="offset">
+            <div>
+               <label>Selecione o deslocamento desejado:</label>
+               <input type="number" class="inputDesloc" id="offset" min="1"
+                  max="999" step="1">
+            </div>
 
-            <textarea id="msgCodificada" class="textPlace" rows="2" cols="100" 
-            placeholder="Fofoca em código..." name="msgdecode"></textarea>
-         
-            <button id="buttonDecode">Decodificar</button>
-         </div>
-      </form>
-     
-   </div>
+            <div>
+               <p> Tenho uma coisa para te contar...</p>
 
-  
-</body>
+               <textarea id="msgDecodificada" class="textPlace" rows="2"
+                  cols="100"
+                  placeholder="Deixe aqui sua fofoca..." name="msgDecode"></textarea>
+
+               <button id="buttonEncode">Codificar</button>
+            </div>
+
+            <div>
+               <p> Oooops, esqueci que ninguém pode saber.</p>
+
+               <textarea id="msgCodificada" class="textPlace" rows="2"
+                  cols="100"
+                  placeholder="Fofoca em código..." name="msgEncode"></textarea>
+
+               <button id="buttonDecode">Decodificar</button>
+            </div>
+         </form>
+      </div>
+   </body>
 </html>
