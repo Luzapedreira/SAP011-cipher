@@ -9,12 +9,10 @@ function encode(offset,text){
   let msgDecode= ""
   for (let i = 0; i< text.length; i++){
 
-    // Verifica se é maiúscula
     const numberASCII = text.charCodeAt(i);if(numberASCII >= 65 && numberASCII <= 90) {
       const calc = (((numberASCII - 65) + parseInt(offset)) % 26) + 65;
       msgDecode += String.fromCharCode(calc);
     } 
-    // Verifica se é minúscula
     else if(numberASCII >= 97 && numberASCII <= 122) {
       const calc = (((numberASCII - 97) + parseInt(offset)) % 26) + 97;
       msgDecode += String.fromCharCode(calc);
