@@ -4,7 +4,7 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
+* [3. Aplicação WEB](#3-aplicação-web)
 
 ***
 
@@ -38,9 +38,6 @@ A aplicação foi desenvolvida em HTML, CSS e JavaScript, incluindo conceitos co
 * Permitir criptografar e descriptografar uma mensagem.
 * Facilitar a comunicação de forma discreta.
 
-**3. Testes Unitários.**
-
-
-
+## 3. Aplicação WEB
   
 https://luzapedreira.github.io/SAP011-cipher/
