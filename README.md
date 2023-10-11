@@ -4,7 +4,8 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Aplicação WEB](#3-aplicação-web)
+* [3. Como Funciona](#3-como-funciona)
+* [4. Aplicação WEB](#4-aplicação-web)
 
 ***
 
@@ -28,7 +29,7 @@ substituida por outra que se encontra há um número fixo de posições
 Projeto criado com a finalidade de auxiliar a troca de informações pessoais ou não e que podem ser de procedência duvidosa, a famosa "fofoca".
 De forma simplificada e intuitiva as pessoas que utilizarem poderão codificar e decodificar suas informações  para que sejam secretas e só possam ser descobertas por quem tenha o código de deslocamento.
 
-A aplicação foi desenvolvida em HTML, CSS e JavaScript, incluindo conceitos como variáveis, condicionais e funções, bem como eventos e manipulação básica de DOM.
+A aplicação foi desenvolvida em HTML, CSS e JavaScript, incluindo conceitos como variáveis, condicionais e funções, bem como eventos e manipulação básica de DOM, para finalizar, a utilização de testes unitários.
 
 ### Os objetivos gerais deste projeto são os seguintes
 
@@ -38,6 +39,10 @@ A aplicação foi desenvolvida em HTML, CSS e JavaScript, incluindo conceitos co
 * Permitir criptografar e descriptografar uma mensagem.
 * Facilitar a comunicação de forma discreta.
 
-## 3. Aplicação WEB
+## 3. Como funciona
+
+Para codificar ou decodificar a mensagem, cada pessoa escolherá primeiro o deslocamento (offset). EM seguida vai colocar a mensagem no campo desejado, se for para codificar ou decodificar e depois clica no botão de referência.
+
+## 4. Aplicação WEB
   
 https://luzapedreira.github.io/SAP011-cipher/
