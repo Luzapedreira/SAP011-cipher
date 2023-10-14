@@ -6,6 +6,7 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Como Funciona](#3-como-funciona)
 * [4. Aplicação WEB](#4-aplicação-web)
+* [5. Desenvolvedora](#5-desenvolvedora)
 
 ***
 
@@ -46,3 +47,9 @@ Para codificar ou decodificar a mensagem, cada pessoa escolherá primeiro o desl
 ## 4. Aplicação WEB
   
 https://luzapedreira.github.io/SAP011-cipher/
+
+
+### 5. Desenvolvedora
+
+Luza Pedreira [LinkedIn](https://www.linkedin.com/in/luza-pedreira/) | [GitHub](https://github.com/Luzapedreira)
+
