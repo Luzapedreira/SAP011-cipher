@@ -7,7 +7,8 @@
 * [3. Como Funciona](#3-como-funciona)
 * [4. Aplicação WEB](#4-aplicação-web)
 * [5. Tecnologias utilizadas](#5-tecnologias-utilizadas)
-* [6. Desenvolvedora](#5-desenvolvedora)
+* [5. Testes](#6-testes)
+* [6. Desenvolvedora](#7-desenvolvedora)
 
 ***
 
@@ -54,8 +55,12 @@ https://luzapedreira.github.io/SAP011-cipher/
 
 ## 5. Tecnologias Utilizadas
 
-![html](img/html-icon.png) ![css](img/css-icon.png) ![js](img/js-icon.png) ![git](img/git-icon.png) ![github](img/gitHub-icon.png)
+![html](src/img/html-icon.png) ![css](src/img/css-icon.png) ![js](src/img/js-icon.png) ![git](src/img/git-icon.png) ![github](src/img/gitHub-icon.png)
 
-### 6. Desenvolvedora
+## 6. Testes
+
+"[testes](src/img/testes.png)
+
+### 7. Desenvolvedora
 
 Luza Pedreira [LinkedIn](https://www.linkedin.com/in/luza-pedreira/) | [GitHub](https://github.com/Luzapedreira)
