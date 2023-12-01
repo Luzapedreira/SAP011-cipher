@@ -6,22 +6,21 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Como Funciona](#3-como-funciona)
 * [4. Aplicação WEB](#4-aplicação-web)
-* [5. Desenvolvedora](#5-desenvolvedora)
+* [5. Tecnologias utilizadas](#5-tecnologias-utilizadas)
+* [6. Desenvolvedora](#5-desenvolvedora)
 
 ***
 
 ## 1. Prefácio
 
-Projeto desenvolvido para o BootCamp Laboratoria em Julho /Agosto de 2023. Consiste em aplicação web, com tema livre, usando a lógica da Cifra de César para codificar e decodificar mensagens.
+Primeiro projeto desenvolvido para o BootCamp Laboratoria em Julho /Agosto de 2023. Consiste em uma aplicação web, com tema livre, usando a lógica da Cifra de César para codificar e decodificar mensagens.
 
 Encriptar significa ocultar o conteúdo de uma mensagem a olho nu,
 para que somente as partes autorizadas possam decifrar um texto cifrado.
 A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
 é um dos primeiros tipos de criptografias conhecidas na história.
 O imperador romano Júlio César utilizava essa cifra para enviar
-ordens secretas aos seus generais no campo de batalha.
-
-A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição, em que cada letra do texto original é
+ordens secretas aos seus generais no campo de batalha. É um tipo de cifra por substituição, em que cada letra do texto original é
 substituida por outra que se encontra há um número fixo de posições
 (deslocamento) mais a frente do mesmo alfabeto.
 
@@ -42,14 +41,21 @@ A aplicação foi desenvolvida em HTML, CSS e JavaScript, incluindo conceitos co
 
 ## 3. Como funciona
 
-Para codificar ou decodificar a mensagem, cada pessoa escolherá primeiro o deslocamento (offset). EM seguida vai colocar a mensagem no campo desejado, se for para codificar ou decodificar e depois clica no botão de referência.
+Para codificar ou decodificar a mensagem:
+
+1- Selecionar o deslocamento (offset).
+2- Digitar a mensagem no campo desejado (codificar ou decodificar).
+3- Clicar no botão de referência (codificar ou decodificar).
+4- ver o resultado em tela.
 
 ## 4. Aplicação WEB
   
 https://luzapedreira.github.io/SAP011-cipher/
 
+## 5. Tecnologias Utilizadas
 
-### 5. Desenvolvedora
+![html](img/html-icon.png) ![css](img/css-icon.png) ![js](img/js-icon.png) ![git](img/git-icon.png) ![github](img/gitHub-icon.png)
+
+### 6. Desenvolvedora
 
 Luza Pedreira [LinkedIn](https://www.linkedin.com/in/luza-pedreira/) | [GitHub](https://github.com/Luzapedreira)
-
