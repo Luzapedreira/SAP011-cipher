@@ -7,8 +7,8 @@
 * [3. Como Funciona](#3-como-funciona)
 * [4. Aplicação WEB](#4-aplicação-web)
 * [5. Tecnologias utilizadas](#5-tecnologias-utilizadas)
-* [5. Testes](#6-testes)
-* [6. Desenvolvedora](#7-desenvolvedora)
+* [6. Testes](#6-testes)
+* [7. Desenvolvedora](#7-desenvolvedora)
 
 ***
 
@@ -59,7 +59,7 @@ https://luzapedreira.github.io/SAP011-cipher/
 
 ## 6. Testes
 
-"[testes](src/img/testes.png)
+![testes](src/img/testes.png)
 
 ### 7. Desenvolvedora
 
